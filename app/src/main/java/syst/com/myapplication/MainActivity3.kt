@@ -404,15 +404,6 @@ fun Profile1() {
 }
 
 
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
 @Preview(showBackground = true,showSystemUi = true, device = "spec:parent=pixel_5,orientation=portrait")
 @Composable
 fun GreetingPreview() {
